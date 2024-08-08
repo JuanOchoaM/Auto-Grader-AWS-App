@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submission Results</title>
+</head>
+<body>
+    <h2>Here are your submission results: Juan Ochoa</h2>
+    {% if compile_errors %}
+        <div>
+            <p><strong>Compilation Errors:</strong></p>
+            <pre>{{ compile_errors }}</pre>
+        </div>
+    {% else %}
+        <div>
+            <p><strong>Score:</strong> {{ score }} out of 2 correct.</p>
+        </div>
+        <div>
+            <h3>Original Submission</h3>
+            <pre>{{ source_code | e }}</pre>
+        </div>
+    {% endif %}
+</body>
+</html>
+
