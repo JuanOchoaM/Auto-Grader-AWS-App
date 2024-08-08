@@ -1,4 +1,19 @@
-## Compose sample application
+## Auto-Grader Cloud App
+
+I developed a scalable cloud-based auto-grader system using Docker and AWS Elastic Beanstalk. The project involved several steps:
+
+1. **Docker**: Set up a t2.large Ubuntu server on AWS, installed Docker, and completed an in-depth tutorial to understand containerization and Docker’s functionalities.
+2. **Web Server Development**: Created a web server application using Python and Flask. The application allows users to upload a C++ program, which is then auto-graded. The system compiles the uploaded program, executes it, and compares the output to expected results, providing real-time feedback and grade.
+3. **Docker Integration**: Transformed the web server application into a Docker container.
+4. **AWS Elastic Beanstalk Deployment**: Deployed the Docker container to AWS Elastic Beanstalk.
+
+### Skills Gained:
+• Proficiency in Docker and containerization.
+• Experience with AWS services, (EC2 and Elastic Beanstalk.)
+• Hands-on development with Python, Flask, and web server management.
+• Practical understanding of cloud-based application deployment and scalability.
+
+## Compose Sample Application
 
 ### Use with Docker Development Environments
 
@@ -6,7 +21,7 @@ You can open this sample in the Dev Environments feature of Docker Desktop versi
 
 [Open in Docker Dev Environments <img src="../open_in_new.svg" alt="Open in Docker Dev Environments" align="top"/>](https://open.docker.com/dashboard/dev-envs?url=https://github.com/docker/awesome-compose/tree/master/flask)
 
-### Python/Flask application
+### Python/Flask Application
 
 Project structure:
 ```
@@ -16,7 +31,6 @@ Project structure:
     ├── Dockerfile
     ├── requirements.txt
     └── app.py
-
 ```
 
 [_compose.yaml_](compose.yaml)
@@ -30,8 +44,7 @@ services:
       - '8000:8000'
 ```
 
-## Deploy with docker compose
-
+## Deploy with Docker Compose
 ```
 $ docker compose up -d
 [+] Building 1.1s (16/16) FINISHED
@@ -43,7 +56,7 @@ $ docker compose up -d
  ⠿ Container flask-web-1  Started
 ```
 
-## Expected result
+## Expected Result
 
 Listing containers must show one container running and the port mapping as below:
 ```
