@@ -14,6 +14,14 @@ I developed a scalable cloud-based auto-grader system using Docker and AWS Elast
 • Practical understanding of cloud-based application deployment and scalability.
 
 ## Compose Sample Application
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/49656217-b009-40cd-a48a-06d0a34e7f73">
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/2c768287-4fdd-40c4-93e3-a50c9b3915e8">
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/d84c3bf3-03ed-4db0-9622-55b28b5c3bfe">
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/6b0e2779-e730-4a79-9cce-5a10daad5a60">
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/d1800451-1cd4-4794-ab11-c866e0e959ad">
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/b6cb62ff-90dc-49c4-be9d-2769a2e41296">
+
+
 
 ### Use with Docker Development Environments
 
